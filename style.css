@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#timer {
+    font-size: 60px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #407BFF; /* Buton arka plan rengi */
+    color: white; /* Metin rengi */
+    border: none; /* Kenar yok */
+    border-radius: 5px; /* Kenar yuvarlama */
+    padding: 10px 20px; /* İç boşluk */
+    margin: 5px; /* Dış boşluk */
+    font-size: 18px; /* Yazı boyutu */
+    cursor: pointer; /* İşaretçi */
+    transition: background-color 0.3s; /* Arka plan rengi geçişi */
+}
+
+button:hover {
+    background-color: #0056b3; /* Farenin üzerinde durduğunda renk değişimi */
+}
+
+button:focus {
+    outline: none; /* Odaklandığında kenarlığı kaldırma */
+}
